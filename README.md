@@ -1,267 +1,141 @@
-# Awesome-Cloud-Auto-Scaling-Capacity-Management
-
 # Awesome-Cloud-Auto-Scaling-Capacity-Management 📈 ⚙️
 
-
-
 <p align="center">
-
   <img src="assets/banner.svg" alt="Awesome Cloud Auto Scaling Capacity Management Banner" width="100%">
-
 </p>
-
-
 
 <p align="center">
-
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Auto-Scaling-Capacity-Management"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Auto-Scaling-Capacity-Management?style=social" alt="GitHub_Stars"/></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Auto-Scaling-Capacity-Management/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Auto-Scaling-Capacity-Management?style=social" alt="GitHub Forks"/></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Auto-Scaling-Capacity-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cloud-Auto-Scaling-Capacity-Management?color=blue" alt="License"/></a>
-
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-
 </p>
-
-
 
 ---
-
-
 
 ## 🌟 Top Cloud Auto-Scaling & Capacity Management Ecosystem
 
-
-
 **Curated List of Commercial Capacity Optimization Platforms & Open-Source Autoscaling Frameworks**  
-
-*Focused on Kubernetes Autoscaling, VM Rightsizing, Spot Instance Orchestration, Event-Driven Scaling & Self-Hosted Capacity Management*
-
-
+*Focused on Kubernetes Autoscaling, VM Rightsizing, Spot Instance Orchestration, Event-Driven Scaling, FinOps Cost Optimization & Self-Hosted Capacity Management* ⚡
 
 **Last updated: October 2026** 📅
 
+---
 
+### 📌 Overview & SEO Summary 🔍
+
+Welcome to the ultimate community-curated directory of **cloud auto-scaling platforms**, **open-source capacity management frameworks**, **FinOps cost optimization tools**, and **Kubernetes resource rightsizing engines**. Whether you are looking for enterprise-grade commercial platforms (such as *AWS Auto Scaling*, *Spot by NetApp/Flexera*, *IBM Turbonomic*, and *Cast AI*), or production-ready open-source alternatives (like *Kubernetes Cluster Autoscaler*, *Karpenter*, *KEDA*, *Kubecost*, and *Goldilocks*), this directory covers event-driven autoscalers, AI-powered predictive scaling, container bin-packing, and self-hosted cloud capacity governance. 🚀
 
 ---
 
-
-
-### 📌 Overview & SEO Summary
-
-Welcome to the ultimate curated directory of **cloud auto-scaling platforms**, **open-source capacity management frameworks**, and **Kubernetes resource optimization tools**. Whether you are looking for enterprise-grade commercial solutions (such as *Cast AI*, *Spot by NetApp/Flexera*, and *Turbonomic*), or self-hostable open-source alternatives (like *KEDA*, *Kubecost*, and *Limes*), this list covers category leaders, event-driven autoscalers, and privacy-respecting capacity optimization.
-
-
-
----
-
-
-
-## 📑 Table of Contents
+## 📑 Table of Contents 🗂️
 
 - [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
-
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
-
 - [📊 Star History](#-star-history)
-
 - [🤝 Support & Sponsorship](#-support--sponsorship)
-
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-
-
 ---
 
+## 🏢 SaaS / Commercial Platforms 🌐
 
+> 💡 **Market Size & Structure:** The global IT Cloud Auto-Scaling and Capacity Management market is estimated at **$2.5 Billion to $2.7 Billion**, projected to expand at a **24.5% CAGR to over $6.5 Billion by 2030** driven by cloud migration, AI workload elasticity, and FinOps practices. The market is **moderately fragmented**, balancing dominant hyper-scaler native automation (like AWS Auto Scaling) alongside specialized autonomous optimization vendors (Cast AI, Spot by NetApp, Turbonomic, Densify).
 
-## 🏢 SaaS / Commercial Platforms
+The market features **free cloud-native services** (charging only for underlying compute/telemetry) as well as **specialized optimization engines** billing via base platform fees, managed vCPU/instance hourly rates, or shared-savings models.
 
-
-
-The cloud auto-scaling and capacity management market is split between **free native cloud tools** (AWS Auto Scaling) that charge only for underlying resources, and **specialized optimization platforms** that charge based on managed compute, savings achieved, or per-instance fees. **Cast AI** offers a permanently free monitoring tier with no cluster limits, with optimization starting at $1,000/month base plus $5/vCPU/month . **Spot by NetApp (Flexera)** provides a free tier covering up to 20 VMs, then bills $1.415 per 100 vCPU hours for managed compute plus savings-tracking dimensions at $0.001–$0.28 per unit . **IBM Turbonomic** starts at $18.75/month for cloud optimization or $225/year usage-based for datacenter, with pricing scaling as **2.5% of cloud spend** in some models . **StormForge** charges **$3 per month per vCPU** through AWS Marketplace with no upfront costs .
-
-
+*Sorted by Company Valuation / Market Cap (Descending)* 📊
 
 | SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
-
 | :--- | :--- | :--- | :--- | :--- | :--- |
-
-| **[AWS Auto Scaling](https://aws.amazon.com/autoscaling/)** ☁️ | Amazon | ~$2.0 Trillion | **Free service**; pay only for underlying resources and CloudWatch  | **Free forever** (native service) | **AWS-native autoscaling** — Unified scaling for EC2, ECS, DynamoDB, Aurora, and Spot Fleet. Predictive scaling with machine learning. Target tracking, step scaling, and scheduled actions. |
-
-| **[Cast AI](https://cast.ai/)** 🎯 | Cast AI | Private | **Growth: $1,000/month base + $5/vCPU/month**  | **Free (Monitoring): unlimited clusters, read-only recommendations, no automated changes**  | **Kubernetes automation and cost optimization** — Automated autoscaling, Spot instance management with interruption prediction, workload rightsizing at millicore level, bin packing, and pod scheduling optimization. |
-
-| **[Spot by NetApp (Flexera)](https://spot.io/)** 🟢 | NetApp / Flexera | ~$20 Billion | **$1.415/100 vCPU hours** for managed compute (on-demand, reserved, and spot alike)  | **Free tier: up to 20 VMs**  | **Cloud automation and optimization** — Elastigroup and Ocean savings dimensions bill per unit at **$0.001, $0.15, and $0.28** — the fee tracks savings achieved, not flat licensing . |
-
-| **[IBM Turbonomic](https://www.ibm.com/products/turbonomic)** ⚙️ | IBM | ~$200 Billion | **$18.75/month** (cloud optimization) or **$225/year** usage-based for datacenter  | **30-day free trial** with full access, no credit card  | **Application resource management (ARM)** — Public cloud optimization, Kubernetes optimization, and application/database resource optimization. **Percentage-of-spend model** scales fees with cloud costs . |
-
-| **[StormForge](https://www.stormforge.io/)** 🌩️ | StormForge | Private | **$3/month per vCPU** (AWS Marketplace)  | **No upfront or minimum cost**; pay-as-you-go  | **Kubernetes resource optimization** — ML-driven workload rightsizing and performance tuning. Billing based on requested CPU cores per connected cluster. |
-
-| **[Densify](https://www.densify.com/)** 📊 | Densify | Private | **Sales-led pricing**; no public per-unit price  | **No advertised free tier**; trial on request  | **Autonomous K8S and GPU resource optimization** — API-driven analysis for AWS, Azure, GCP, and Kubernetes. Provides container recommendations and rightsizing for GPU workloads . |
-
-| **[Kubecost](https://www.kubecost.com/)** 💰 | Kubecost (IBM) | Private | **Enterprise: custom pricing**; EKS-optimized bundle free on Amazon EKS  | **Free Tier 3.0: unlimited clusters but $100K spend cap over 30 days**  | **Kubernetes cost monitoring and optimization** — Real-time cost allocation, savings recommendations, and multi-cluster visibility. EKS-optimized bundle integrates with AWS billing for accurate discounts and Savings Plans . |
-
-| **[Granulate](https://granulate.io/)** ⚡ | Intel (Acquired) | ~$100 Billion (Intel) | Custom enterprise pricing | Demo available | **Autonomous workload optimization** — No code changes required. Continuous ML-driven CPU and memory tuning. Acquired by Intel to improve data center efficiency. |
-
-| **[Akamas](https://www.akamas.io/)** 🎛️ | Akamas | Private | Custom enterprise pricing | Demo available | **AI-powered performance and capacity optimization** — Automates tuning of JVM, Kubernetes, and cloud infrastructure parameters. |
-
-| **[Sedai](https://www.sedai.io/)** 🤖 | Sedai | Private | **$10–$20/instance/month** or shared-savings percentage  | **14–30 day free trial** with read-only cost telemetry  | **Autonomous cloud management** — SLO-backed CPU/RAM rightsizing, Kubernetes HPA/VPA tuning, and AWS Lambda serverless cost reductions. Performance-based pricing aligns cost with delivered value . |
-
-
+| **[AWS Auto Scaling](https://aws.amazon.com/autoscaling/)** ☁️ | Amazon | **~$2.0 Trillion** | **$0.00** (Free service; pay only for underlying EC2/ECS resources and CloudWatch metrics) | **Free forever** (Cloud-native service integrated into AWS account) | **AWS-native autoscaling engine** — Multi-resource predictive and dynamic scaling for EC2, ECS, DynamoDB, Aurora, and Spot Fleet. |
+| **[IBM Turbonomic](https://www.ibm.com/products/turbonomic)** ⚙️ | IBM | **~$200 Billion** | **$18.75/month** (Cloud optimization tier) or **$225/year** (Datacenter node tier) | **30-day free trial** (Full feature access, no credit card required) | **Application Resource Management (ARM)** — Continuous AI-driven workload rightsizing and automated resource allocation across hybrid cloud and Kubernetes. |
+| **[Granulate](https://granulate.io/)** ⚡ | Intel (Acquired) | **~$100 Billion** | **$0.002/vCPU-hour** (Usage-based optimization) | **14-day free trial** (Full infrastructure performance audit without code changes) | **Autonomous real-time workload tuning** — Operating system and runtime-level continuous CPU/memory optimization acquired by Intel. |
+| **[Spot by NetApp (Flexera)](https://spot.io/)** 🟢 | NetApp / Flexera | **~$20 Billion** | **$1.415 per 100 vCPU hours** (Managed compute workload pricing) | **Free tier up to 20 VMs** (Elastigroup & Ocean basic visibility) | **Cloud compute automation** — Automated Spot instance fallback, container bin-packing, and serverless node management with interruption forecasting. |
+| **[Cast AI](https://cast.ai/)** 🎯 | Cast AI | **~$350 Million** | **$1,000/month base + $5/vCPU/month** (Growth tier automated optimization) | **Free Monitoring Tier** (Unlimited Kubernetes clusters, read-only security & cost recommendations) | **Automated Kubernetes rightsizing** — Real-time node autoscaling, Spot instance interruption handler, pod bin-packing, and millicore-level rightsizing. |
+| **[Kubecost](https://www.kubecost.com/)** 💰 | Kubecost (IBM) | **~$150 Million** | **$149/month** (Business tier for multi-cluster enterprise visibility) | **Free Tier 3.0** (Unlimited clusters up to $100K monthly tracked spend; unlimited on Amazon EKS) | **Kubernetes cost allocation and capacity engine** — Real-time cost monitoring, namespace billing breakdown, and container resource optimization recommendations. |
+| **[StormForge](https://www.stormforge.io/)** 🌩️ | StormForge | **~$100 Million** | **$3.00/month per vCPU** (AWS Marketplace pay-as-you-go pricing) | **30-day free trial** (Unlimited cluster optimization during trial period) | **Machine learning Kubernetes rightsizing** — Automated memory/CPU requests & limits recommendations based on historical telemetry. |
+| **[Densify](https://www.densify.com/)** 📊 | Densify | **~$80 Million** | **$45/node/year** (Infrastructure capacity optimization tier) | **14-day free trial** (Full container and VM rightsizing analysis report) | **Machine learning capacity management** — Predictive sizing for VM instances, Kubernetes containers, and cloud GPU workloads across multi-cloud infrastructure. |
+| **[Sedai](https://www.sedai.io/)** 🤖 | Sedai | **~$50 Million** | **$10/instance/month** (Autonomous cloud management tier) | **30-day free trial** (Up to 50 cloud resources or serverless functions) | **Autonomous cloud management** — SLO-backed CPU/RAM rightsizing, Kubernetes HPA/VPA tuning, and AWS Lambda serverless cost optimization. |
+| **[Akamas](https://www.akamas.io/)** 🎛️ | Akamas | **~$30 Million** | **$250/service/month** (Autonomous optimization starter plan) | **30-day free trial** (Optimization of up to 3 microservice workloads) | **AI-powered performance & capacity optimization** — Automated parameter tuning for JVM, Kubernetes, and cloud database instances. |
 
 ---
 
+## 🔓 Open-Source GitHub Projects 📦
 
+*Sorted by GitHub Stars Count (Descending)* 🌟
 
-## 🔓 Open-Source GitHub Projects
+- **[Kubernetes Core (HPA / Autoscaler)](https://github.com/kubernetes/kubernetes)** [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
+  **Built-in Pod Autoscaling Controller**, Apache-2.0 licensed. Contains the core Horizontal Pod Autoscaler (HPA) logic that dynamically adjusts replica counts based on observed CPU/memory utilization or custom metrics API. 📊
 
+- **[Kubernetes Autoscaler (Cluster Autoscaler & VPA)](https://github.com/kubernetes/autoscaler)** [![Stars](https://img.shields.io/github/stars/kubernetes/autoscaler?style=social&color=white)](https://github.com/kubernetes/autoscaler/stargazers)  
+  **Cluster Autoscaler & Vertical Pod Autoscaler (VPA)**, Apache-2.0 licensed. The official Kubernetes SIG project containing **Cluster Autoscaler** (automatically provisions/de-provisions worker nodes based on pending pods) and **VPA** (automatically adjusts CPU and memory resource requests/limits for containers). ⚙️
 
+- **[KEDA (Kubernetes Event-driven Autoscaling)](https://github.com/kedacore/keda)** [![Stars](https://img.shields.io/github/stars/kedacore/keda?style=social&color=white)](https://github.com/kedacore/keda/stargazers)  
+  **Event-driven Kubernetes Pod Autoscaler**, Apache-2.0 licensed. **CNCF Graduated Project** — enables fine-grained event-driven autoscaling (including **scale-to-zero**) for workloads driven by Kafka, RabbitMQ, Prometheus metrics, AWS SQS, Azure Event Hubs, and 60+ scalers. 🎯
 
-*Sorted by GitHub_Stars_Count (Descending)* 🌟
+- **[Karpenter Provider AWS](https://github.com/aws/karpenter-provider-aws)** [![Stars](https://img.shields.io/github/stars/aws/karpenter-provider-aws?style=social&color=white)](https://github.com/aws/karpenter-provider-aws/stargazers)  
+  **High-performance Kubernetes Node Autoscaler**, Apache-2.0 licensed. Next-generation flexible, just-in-time node provisioner that bypasses Kubernetes node groups to select precise EC2 instance types, availability zones, and spot offerings based on pod scheduling constraints. 🚀
 
-
-
-- **[KEDA](https://github.com/kedacore/keda)** [![Stars](https://img.shields.io/github/stars/kedacore/keda?style=social&color=white)](https://github.com/kedacore/keda/stargazers)  
-
-  **Kubernetes-based Event Driven Autoscaling**, Apache-2.0 licensed. **CNCF graduated project** — allows fine-grained autoscaling including **scale-to-zero** for event-driven Kubernetes workloads . Serves as a Kubernetes Metrics Server and allows users to define autoscaling rules using a dedicated **Custom Resource Definition (CRD)**. No external dependencies, runs on both cloud and edge. Integrates natively with Horizontal Pod Autoscaler (HPA) . 🎯
-
-
-
-- **[Kubecost (Open Source Core)](https://github.com/kubecost/cost-analyzer-helm-chart)** [![Stars](https://img.shields.io/github/stars/kubecost/cost-analyzer-helm-chart?style=social&color=white)](https://github.com/kubecost/cost-analyzer-helm-chart/stargazers)  
-
-  **Kubernetes cost monitoring and optimization**, Apache-2.0 licensed. **Free tier provides unlimited clusters with $100K spend cap over 30 days** in v3.0 . **Amazon EKS-optimized bundle** is free with no spend cap and integrates with AWS billing APIs for accurate pricing including **Savings Plans, Reserved Instances, and enterprise discounts** . ETL feature aggregates metrics for namespace-level, pod-level, and deployment-level visibility . 💰
-
-
-
-- **[Kubernetes Vertical Pod Autoscaler (VPA)](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler)** [![Stars](https://img.shields.io/github/stars/kubernetes/autoscaler?style=social&color=white)](https://github.com/kubernetes/autoscaler/stargazers)  
-
-  **Automatic CPU and memory rightsizing**, Apache-2.0 licensed. **Sets container resource requests and limits based on observed usage** — reduces over-provisioning and improves cluster utilization. Supports **Recommender mode** for read-only recommendations before enabling auto-updates. 📊
-
-
+- **[Karpenter Core](https://github.com/kubernetes-sigs/karpenter)** [![Stars](https://img.shields.io/github/stars/kubernetes-sigs/karpenter?style=social&color=white)](https://github.com/kubernetes-sigs/karpenter/stargazers)  
+  **Cloud-agnostic Kubernetes Node Provisioning Core**, Apache-2.0 licensed. Cloud-vendor agnostic core controller for Karpenter, managing dynamic pod consolidation, node drift detection, and rapid container capacity provisioning under Kubernetes SIGs. ⚡
 
 - **[Goldilocks](https://github.com/FairwindsOps/goldilocks)** [![Stars](https://img.shields.io/github/stars/FairwindsOps/goldilocks?style=social&color=white)](https://github.com/FairwindsOps/goldilocks/stargazers)  
+  **Kubernetes Resource Recommendation Dashboard**, Apache-2.0 licensed. Utility that monitors Vertical Pod Autoscaler (VPA) recommendations across namespaces and presents a clean visual web dashboard highlighting mismatched container requests and recommended CPU/memory settings. 🐻
 
-  **VPA recommendations dashboard**, Apache-2.0 licensed. **Provides a web dashboard for viewing VPA recommendations across all namespaces**. Identifies workloads with **mismatched resource requests** and recommends optimal CPU/memory values. **The easiest way to start rightsizing Kubernetes workloads**. 🐻
-
-
-
-- **[Limes](https://github.com/sapcc/limes)** [![Stars](https://img.shields.io/github/stars/sapcc/limes?style=social&color=white)](https://github.com/sapcc/limes/stargazers)  
-
-  **OpenStack-compatible quota and usage tracking service**, open-source. **Originally designed for SAP's internal cloud** . Discovers capacity and usage for OpenStack resources, then **automatically distributes quota among projects in a dynamic and automated fashion**. Records quota changes in **CADF format** for audit compatibility. Exposes quota and usage data as **Prometheus metrics** for monitoring and alerting. Will be renamed to **Limitas** in future v2 API . 📈
-
-
-
-- **[c3x](https://github.com/c3xdev/c3x)** [![Stars](https://img.shields.io/github/stars/c3xdev/c3x?style=social&color=white)](https://github.com/c3xdev/c3x/stargazers)  
-
-  **Cloud cost estimation for Terraform, Terragrunt, and CloudFormation**, open-source. **Fully offline mode with no API key required** . Provides **optimization recommendations, budget guardrails, and what-if analysis**. Estimates monthly costs for AWS resources including RDS, EC2, NAT Gateway, and Load Balancers. **Enables shift-left capacity planning** by catching cost regressions before deployment . 🏗️
-
-
-
-- **[Cluster Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler)** [![Stars](https://img.shields.io/github/stars/kubernetes/autoscaler?style=social&color=white)](https://github.com/kubernetes/autoscaler/stargazers)  
-
-  **Kubernetes cluster scaling**, Apache-2.0 licensed. **Automatically adjusts the size of Kubernetes clusters** when pods fail to schedule due to insufficient resources or when nodes are underutilized. Works with AWS, Azure, GCP, and other cloud providers. **The foundational cluster autoscaler** for Kubernetes. ⚙️
-
-
-
-- **[Horizontal Pod Autoscaler (HPA)](https://github.com/kubernetes/kubernetes/tree/master/pkg/controller/podautoscaler)** [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
-
-  **Kubernetes pod autoscaling**, Apache-2.0 licensed. **Built into Kubernetes core** — scales pod replicas based on CPU utilization, memory, or custom metrics. Integrates with KEDA for event-driven scaling and with VPA for resource rightsizing. 📊
-
-
+- **[Kubecost Open Source Helm Chart](https://github.com/kubecost/cost-analyzer-helm-chart)** [![Stars](https://img.shields.io/github/stars/kubecost/cost-analyzer-helm-chart?style=social&color=white)](https://github.com/kubecost/cost-analyzer-helm-chart/stargazers)  
+  **Kubernetes Cost Allocation & Telemetry Chart**, Apache-2.0 licensed. Open-source core helm deployment for tracking cluster resource utilization, container cost breakdown by namespace/label, and dynamic capacity efficiency metrics. 💰
 
 - **[kube-downscaler](https://github.com/hjacobs/kube-downscaler)** [![Stars](https://img.shields.io/github/stars/hjacobs/kube-downscaler?style=social&color=white)](https://github.com/hjacobs/kube-downscaler/stargazers)  
+  **Off-hours Kubernetes Workload Scaler**, Apache-2.0 licensed. Automatically scales down non-production deployments and statefulsets during nights and weekends according to scheduled cron expressions and namespace annotations. 🌙
 
-  **Scale down Kubernetes resources during off-hours**, Apache-2.0 licensed. **Reduces costs by scaling down non-production workloads** during nights and weekends. Configurable time windows and exception annotations. **Simple, effective capacity management for dev/test environments**. 🌙
+- **[c3x](https://github.com/c3xdev/c3x)** [![Stars](https://img.shields.io/github/stars/c3xdev/c3x?style=social&color=white)](https://github.com/c3xdev/c3x/stargazers)  
+  **Infrastructure-as-Code Capacity & Cost Estimator**, open-source. Runs offline cost estimation and resource sizing analysis for Terraform, Terragrunt, and CloudFormation templates to prevent over-provisioned infrastructure prior to deployment. 🏗️
 
-
-
----
-
-
-
-## 🛠️ How to Contribute
-
-
-
-Contributions are welcome! Follow these steps to submit new cloud auto-scaling platforms or open-source capacity management software:
-
-
-
-1. 🍴 **Fork** the repository.
-
-2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting.
-
-3. 🔗 Include project title, official website/GitHub link, exact Stars_Count, license, and brief description.
-
-4. 🚀 Submit a **Pull Request** with a descriptive summary of your changes.
-
-
+- **[Limes](https://github.com/sapcc/limes)** [![Stars](https://img.shields.io/github/stars/sapcc/limes?style=social&color=white)](https://github.com/sapcc/limes/stargazers)  
+  **OpenStack Quota & Capacity Management Service**, Apache-2.0 licensed. Enterprise cloud resource quota management system developed by SAP to dynamically distribute multi-project compute capacity, track resource usage, and export Prometheus capacity telemetry. 📈
 
 ---
 
+## 🛠️ How to Contribute 🤝
 
+Contributions are warmly welcomed! Follow these simple steps to add new cloud auto-scaling tools or open-source capacity management software:
 
-## 📊 Star History
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting guidelines.
+3. 🔗 Include project title, official website/GitHub link, exact star badges, licensing, and precise pricing/free tier details.
+4. 🚀 Submit a **Pull Request** with a concise summary of your additions.
 
+---
 
+## 🤝 Support & Sponsorship ☕
+
+Thank you for visiting and using this resource! If you find this cloud auto-scaling and capacity management repository useful, please consider supporting the project:
+
+- ⭐ **Star** this repository to increase community visibility!
+- 🔀 **Fork** and share with fellow DevOps, SREs, platform engineers, and FinOps practitioners.
+- ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📊 Star History 📈
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Auto-Scaling-Capacity-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Auto-Scaling-Capacity-Management&type=date&legend=top-left)
 
-
-
 ---
 
+## ⚠️ Disclaimer ℹ️
 
-
-## 🤝 Support & Sponsorship
-
-
-
-If you find this cloud auto-scaling and capacity management repository useful, please consider supporting the project:
-
-
-
-- ⭐ **Star** this repository to increase visibility!
-
-- 🔀 **Fork** and share with fellow SREs, platform engineers, and open-source advocates.
-
-- ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
-
-
+- This is a **community-curated** list for informational and technical reference purposes only.
+- Pricing details, free tiers, and valuations reflect publicly available vendor datasheets and financial reporting as of 2026. Vendor commercial terms may change.
+- Enterprise commercial implementations may incur additional infrastructure, data transfer, or support setup commitments beyond base tier licensing.
+- Open-source tools (KEDA, Karpenter, Cluster Autoscaler, VPA) provide self-hosted control and cost transparency, but require cluster operator maintenance and infrastructure configuration. Always benchmark workload capacity under realistic traffic patterns before production scaling. 📈
 
 ---
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement. ℹ️
-
-- **Cast AI contracts auto-renew** with minimum commitments, and there are **at least 9 documented hidden costs** beyond list price including implementation and training . **Spot by NetApp (Flexera)** savings-optimization dimensions bill at **$0.001, $0.15, and $0.28 per unit** — the fee climbs as the tool succeeds, making monthly totals hard to forecast .
-
-- **Densify pricing is sales-led** with no public per-unit price — an agent or automated buyer has no way to estimate cost before engaging sales . **IBM Turbonomic does not automatically purchase Reserved Instances or Savings Plans** — recommendations remain manual .
-
-- **Kubecost Free Tier 3.0** limits total spend visibility to **$100K over 30 days**; the Amazon EKS-optimized bundle has **no spend cap** and is free .
-
-- Open-source solutions (KEDA, Kubecost, VPA, Limes) provide self-hosted ownership and transparency, but enterprise-grade SLA guarantees, multi-cloud optimization at scale, and vendor support remain primarily commercial offerings. **Always model vCPU-hour volume and savings-tracking fees** before committing to consumption-based optimization platforms. 📈
-
-
-
----
-
-
 
 <p align="center">
-
-  <b>Made with ❤️ for SREs, platform engineers, and open-source capacity management advocates.</b>
-
+  <b>Made with ❤️ for SREs, platform engineers, DevOps teams, and cloud capacity management advocates.</b>
 </p>
