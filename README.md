@@ -66,7 +66,7 @@ The market features **free cloud-native services** (charging only for underlying
 
 ## 🔓 Open-Source GitHub Projects 📦
 
-*Sorted by GitHub Stars Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[Kubernetes Core (HPA / Autoscaler)](https://github.com/kubernetes/kubernetes)** [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
   **Built-in Pod Autoscaling Controller**, Apache-2.0 licensed. Contains the core Horizontal Pod Autoscaler (HPA) logic that dynamically adjusts replica counts based on observed CPU/memory utilization or custom metrics API. 📊
@@ -106,7 +106,7 @@ Contributions are warmly welcomed! Follow these simple steps to add new cloud au
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting guidelines.
-3. 🔗 Include project title, official website/GitHub link, exact star badges, licensing, and precise pricing/free tier details.
+3. 🔗 Include project title, official website/GitHub link, exact Stars_Badges, licensing, and precise pricing/free tier details.
 4. 🚀 Submit a **Pull Request** with a concise summary of your additions.
 
 ---
